@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.70">
   <programVersion>4.7.3</programVersion>
   <programRevision>cf9860c</programRevision>
@@ -10,19 +9,19 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Jimmy McHugh</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2026-07-22</metaTag>
     <metaTag name="lyricist">Dorothy Fields</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">On the Sunny Side of the Street</metaTag>
     <Part id="1">
       <Staff>
@@ -82,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -690,7 +689,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <eid>N9txmBp/Q2O_RAO+TptE4IO</eid>
-              <text>Can’t</text>
+              <text>Can&#8217;t</text>
               </Lyrics>
             <Note>
               <eid>O6Nnlf/BxfJ_dXG3+9p/+UK</eid>
@@ -1524,7 +1523,7 @@
             <durationType>half</durationType>
             <Lyrics>
               <eid>U9EejinfpEO_cRQgNO7ma7M</eid>
-              <text>I’m</text>
+              <text>I&#8217;m</text>
               </Lyrics>
             <Note>
               <eid>UFKzDq/S90M_KakLOVRD4bO</eid>
@@ -1862,7 +1861,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <eid>DCxosZU9V8_h35WIMlexeN</eid>
-              <text>I’ll</text>
+              <text>I&#8217;ll</text>
               </Lyrics>
             <Note>
               <eid>TzvTLwiUA6L_xdVJp4n0bEO</eid>

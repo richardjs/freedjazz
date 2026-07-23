@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.70">
   <programVersion>4.7.3</programVersion>
   <programRevision>cf9860c</programRevision>
@@ -10,19 +9,19 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <open>1</open>
-    <metaTag name="arranger"></metaTag>
-    <metaTag name="audioComUrl"></metaTag>
+    <metaTag name="arranger" />
+    <metaTag name="audioComUrl" />
     <metaTag name="composer">Harry Ruby</metaTag>
-    <metaTag name="copyright"></metaTag>
+    <metaTag name="copyright">U.S. public domain - freedjazz.org</metaTag>
     <metaTag name="creationDate">2026-07-22</metaTag>
     <metaTag name="lyricist">Bert Kalmar</metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
     <metaTag name="platform">Linux</metaTag>
-    <metaTag name="source"></metaTag>
-    <metaTag name="sourceRevisionId"></metaTag>
-    <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
+    <metaTag name="source" />
+    <metaTag name="sourceRevisionId" />
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
     <metaTag name="workTitle">Three Little Words</metaTag>
     <Part id="1">
       <Staff>
@@ -82,11 +81,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         <Channel name="harmony">
-          <program value="0"/>
+          <program value="0" />
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -280,7 +279,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <eid>MEQFkvA+2oJ_xOoiyAFFCiI</eid>
-              <text>I’d</text>
+              <text>I&#8217;d</text>
               </Lyrics>
             <Note>
               <eid>f9aaVEmgc2C_ZOhsQGjOk3G</eid>
@@ -697,7 +696,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <eid>f6/ZAwQDujL_FiPl60hjACN</eid>
-              <text>that’s</text>
+              <text>that&#8217;s</text>
               </Lyrics>
             <Note>
               <eid>rpmLJEQ3otE_hHm56M/q7BE</eid>
@@ -723,7 +722,7 @@
             <durationType>quarter</durationType>
             <Lyrics>
               <eid>O3q4sNx67hG_Ky2fuNOCWjF</eid>
-              <text>I’d</text>
+              <text>I&#8217;d</text>
               </Lyrics>
             <Note>
               <eid>zmobLxhX1RP_TV/wFoqYpnJ</eid>
@@ -1754,7 +1753,7 @@
             <Lyrics>
               <ticks_f>1/4</ticks_f>
               <eid>1pwOoHZT/tD_HLpEEcMSp4O</eid>
-              <text>“I</text>
+              <text>&#8220;I</text>
               </Lyrics>
             <Note>
               <eid>pgEXbpaoAQC_R4dboc4/m4K</eid>
@@ -1833,7 +1832,7 @@
             <Lyrics>
               <ticks_f>4/4</ticks_f>
               <eid>brCOsZDHa5E_AAIBnyHSdiI</eid>
-              <text>you!”</text>
+              <text>you!&#8221;</text>
               </Lyrics>
             <Note>
               <eid>9zpJL3hh3oK_smNYyBg/HEI</eid>
