@@ -180,4 +180,4 @@ for song in os.listdir(SCORES_DIR):
             os.system(f"mv { song_dir / '*-1.png' } { png_path }")
 
             # Trim PNG
-            os.system(f"magick { png_path } -trim { png_path }")
+            os.system(f"convert { png_path } -trim { png_path }")
