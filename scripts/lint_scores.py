@@ -8,7 +8,7 @@ from pathlib import Path
 import yaml
 
 SCORES_DIR = Path("scores")
-TUNES_DIR = Path("content") / "songs"
+TUNES_DIR = Path("content") / "tunes"
 
 COPYRIGHT_LINE = "U.S. public domain - freedjazz.org"
 MAJ_7_SYMBOL = "^"

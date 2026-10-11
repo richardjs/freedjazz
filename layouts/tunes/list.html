@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+<h2>{{ .Title }}</h2>
+
+{{ $songPages := where .Site.RegularPages ".Section" "tunes" }}
+
+<p class="lead">
+  There are currently <strong>{{ len $songPages }} tunes</strong> in the
+  collection:
+</p>
+
+{{ partial "song-table.html" $songPages }} {{ end }}

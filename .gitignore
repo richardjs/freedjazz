@@ -1,7 +1,7 @@
-content/songs/*/*.pdf
-content/songs/*/*.mscz
-content/songs/*/*.svg
-content/songs/*/*.png
+content/tunes/*/*.pdf
+content/tunes/*/*.mscz
+content/tunes/*/*.svg
+content/tunes/*/*.png
 
 scores/*/audiosettings.json
 scores/*/META-INF

@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 SCORES_DIR = Path("scores")
-SONGS_DIR = Path("content") / "songs"
+SONGS_DIR = Path("content") / "tunes"
 
 
 KEYS = {
@@ -107,28 +107,28 @@ def to_bass_clef(mscx_path, output_file):
     tree.write(output_file)
 
 
-for song in os.listdir(SCORES_DIR):
-    score_dir = SCORES_DIR / song
-    mscx_path = score_dir / f"{song}.mscx"
+for tune in os.listdir(SCORES_DIR):
+    score_dir = SCORES_DIR / tune
+    mscx_path = score_dir / f"{tune}.mscx"
 
     mscx_mtime = mscx_path.stat().st_mtime
 
-    song_dir = SONGS_DIR / song
+    tune_dir = SONGS_DIR / tune
 
-    png_path = song_dir / f"{song}.png"
+    png_path = tune_dir / f"{tune}.png"
     output_paths = [
         (
-            song_dir / f"{song}.pdf",
+            tune_dir / f"{tune}.pdf",
             None,
             "treble",
         ),
         (
-            song_dir / f"{song}_bass.pdf",
+            tune_dir / f"{tune}_bass.pdf",
             None,
             "bass",
         ),
         (
-            song_dir / f"{song}.mscz",
+            tune_dir / f"{tune}.mscz",
             None,
             "treble",
         ),
@@ -143,12 +143,12 @@ for song in os.listdir(SCORES_DIR):
     # for key, key_num in KEYS.items():
     #     output_paths += [
     #         (
-    #             song_dir / f"{song}_{key}.pdf",
+    #             tune_dir / f"{tune}_{key}.pdf",
     #             key,
     #             "treble",
     #         ),
     #         (
-    #             song_dir / f"{song}_{key}_bass.pdf",
+    #             tune_dir / f"{tune}_{key}_bass.pdf",
     #             key,
     #             "bass",
     #         ),
@@ -177,7 +177,7 @@ for song in os.listdir(SCORES_DIR):
         if output_path == png_path:
             # mscore generates separate PNGs for each page; we only have
             # single-page sheets right now, so remove the page suffix
-            os.system(f"mv { song_dir / '*-1.png' } { png_path }")
+            os.system(f"mv { tune_dir / '*-1.png' } { png_path }")
 
             # Trim PNG
             os.system(f"convert { png_path } -trim { png_path }")
