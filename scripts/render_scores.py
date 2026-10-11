@@ -172,7 +172,8 @@ for tune in os.listdir(SCORES_DIR):
             continue
 
         print(f"Rendering {output_path}...")
-        os.system(f"mscore -o {output_path} {render_input_path}")
+        # The -r flag sets resolution for PNGs; by default it is much higher than we need
+        os.system(f"mscore -r 150 -o {output_path} {render_input_path}")
 
         if output_path == png_path:
             # mscore generates separate PNGs for each page; we only have
